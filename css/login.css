@@ -1,0 +1,169 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#text1 {
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.text2 {
+    color: #c9c9c9;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a {
+    color: #a9eb6c;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c5f598;
+}
+
+.image {
+    position: relative;
+    right: 30px;
+    width: 100%;
+}
+
+#first {
+    position: relative;
+    top: 110px;
+    left: 120px;
+}
+
+.second {
+    top: 70px;
+}
+
+.form {
+    width: 50%;
+    position: relative;
+    height: 80px;
+    /* background: blue; */
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 14px;
+    border: none;
+    outline: none;
+}
+
+.form label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+
+.form label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #a9eb6c;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.content-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.form input:focus+.label-name .content-name,
+.form input:valid+.label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #a9eb6c;
+}
+
+.form input:focus+.label-name::after,
+.form input:valid+.label-name::after {
+    transform: translateX(0%);
+}
+
+.content-password {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.form input:focus+.label-password .content-password,
+.form input:valid+.label-password .content-password {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #a9eb6c;
+}
+
+.form input:focus+.label-password::after,
+.form input:valid+.label-password::after {
+    transform: translateX(0%);
+}
+
+.butn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 50%;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #a9eb6c;
+    transition: all 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #c5f598;
+}
+
+.showpwd {
+    position: absolute;
+    right: 25px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+    width: fit-content;
+    i {
+        position: absolute;
+        top: 3px;
+        right: 5px;
+    }
+}

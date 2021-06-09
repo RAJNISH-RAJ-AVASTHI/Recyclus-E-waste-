@@ -1,0 +1,95 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.card {
+    padding-top: 0;
+}
+
+#car {
+    text-align: center;
+}
+
+
+/* #car-carousel {
+    height: 630px;
+  } */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-inner {
+    padding-top: 60px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#image {
+    width: 45%;
+}
+
+.container-fluid1 {
+    padding: 5% 5%;
+    background-color: #4ece54;
+}
+
+.container-fluid {
+    padding: 0% 2%;
+}
+
+.cen {
+    text-align: center;
+}
+
+.margin {
+    width: 90%;
+}
+
+.nav-item {
+    margin: 0.5rem;
+}
+
+.row {}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#cards {
+    background-color: #4ece54;
+    padding: 4% 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    padding-top: 4%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
