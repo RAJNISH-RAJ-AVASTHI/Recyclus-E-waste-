@@ -25,5 +25,5 @@ The following tools have been used for the development of the project:
 #XAMPP 
 #BOOTSTRAP v5.0
 
-#PROJECT DEMO
+#PROJECT DEMO VIDEO 
 LINK :-https://github.com/RAJNISH-RAJ-AVASTHI/Recyclus_E-waste/blob/master/recyclus%20Demo%20video.gif
