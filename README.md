@@ -17,4 +17,13 @@ To deal with this problem the best way seemed to connect the sellers of ewaste
 to its buyers via Recyclus.
 
 The following tools have been used for the development of the project:
-#HTML5 #CSS3 #JAVASCRIPT #MYSQL #PHP #XAMPP #BOOTSTRAP v5.0
+#HTML5 
+#CSS3 
+#JAVASCRIPT 
+#MYSQL
+#PHP
+#XAMPP 
+#BOOTSTRAP v5.0
+
+#PROJECT DEMO
+LINK :-https://github.com/RAJNISH-RAJ-AVASTHI/Recyclus_E-waste/blob/master/recyclus%20Demo%20video.gif
